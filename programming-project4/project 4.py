@@ -1,4 +1,4 @@
-from project3 import *
+from project4_create import *
                             
 	#YOUR CODE GOES HERE
 def draw(width,height,letter,number):
@@ -21,11 +21,16 @@ def draw(width,height,letter,number):
 	
 def soften(grid):
         count=0
-        for i in range(3):
-                for j in range(3):
-                        if(grid[i][j]=="X"):
-                                count=count+1
+        i=0
+        while(i<len(grid)):
+                j=0
+                while(j<len(grid[i])):
+                      if(grid[i][j]!="_"):
+                              count=count+1         
+                      j=j+1
+                i=i+1
+        if(grid[1][1]=='_'):
+                count=count
+        else:
+                count=count-1
         return count
-
-
-
