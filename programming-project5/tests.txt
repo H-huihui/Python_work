@@ -1,0 +1,100 @@
+Number.__init__ R two 4 3 Number.draw()
+'RRRR\n RR \nRRRR\n'
+Number.__init__ R two 4 3 Number.getSoften()
+False
+Number.__init__ R two 4 3 Number.getColor()
+'R'
+Number.__init__ R two 3 4 Number.draw()
+'RRR\n R \nR  \nRRR\n'
+Number.__init__ R three 3 3 Number.draw()
+'RRR\n RR\nRRR\n'
+Number.__init__ X one 4 3 Number.draw()
+'   X\n   X\n   X\n'
+Number.__init__ X two 3 4 Number.draw()
+'XXX\n X \nX  \nXXX\n'
+Number.__init__ X two 4 3 Number.draw()
+'XXXX\n XX \nXXXX\n'
+Number.__init__ L three 5 4 Number.draw()
+'LLLLL\n  LLL\n    L\nLLLLL\n'
+Number.__init__ 4 four 5 5 Number.draw()
+'4   4\n4   4\n44444\n    4\n    4\n'
+Number.__init__ x five 5 5 Number.draw()
+'xxxxx\nx    \nxxxxx\n    x\nxxxxx\n'
+Number.__init__ X three 9 9 Number.draw()
+'XXXXXXXXX\n        X\n        X\n        X\n    XXXXX\n        X\n        X\n        X\nXXXXXXXXX\n'
+Number.__init__ X five 5 5 Number.draw()
+'XXXXX\nX    \nXXXXX\n    X\nXXXXX\n'
+Number.__init__ X five 5 4 Number.draw()
+'XXXXX\nXXXXX\n    X\nXXXXX\n'
+Number.__init__ X five 4 5 Number.draw()
+'XXXX\nX   \nXXXX\n   X\nXXXX\n'
+Number.__init__ X five 4 4 Number.draw()
+'XXXX\nXXXX\n   X\nXXXX\n'
+Number.__init__ X five 4 3 Number.draw()
+'XXXX\nXXXX\nXXXX\n'
+Number.__init__ X five 3 4 Number.draw()
+'XXX\nXXX\n  X\nXXX\n'
+Number.__init__ X five 3 3 Number.draw()
+'XXX\nXXX\nXXX\n'
+Number.__init__ X four 5 5 Number.draw()
+'X   X\nX   X\nXXXXX\n    X\n    X\n'
+Number.__init__ X four 4 4 Number.draw()
+'X  X\nXXXX\n   X\n   X\n'
+Number.__init__ X two 4 3 Number.getColor()
+'X'
+Number.__init__ A two 4 3 Number.getColor()
+'A'
+Number.__init__ B two 4 3 Number.getColor()
+'B'
+Number.__init__ C two 4 3 Number.getColor()
+'C'
+Number.__init__ D two 4 3 Number.getColor()
+'D'
+Number.__init__ E two 4 3 Number.getColor()
+'E'
+Number.__init__ F two 4 3 Number.getColor()
+'F'
+Number.__init__ Z two 4 3 Number.getColor()
+'Z'
+Number.__init__ L two 4 3 Number.getColor()
+'L'
+Number.__init__ M two 4 3 Number.getColor()
+'M'
+Number.__init__ N two 4 3 Number.getColor()
+'N'
+Number.__init__ K two 4 3 Number.getColor()
+'K'
+Number.match [['_','_','X'],['_','_','X'],['_','_','X'],['_','_','X']] Number.getType()
+'one'
+Number.match [['_','_','X'],['_','_','X'],['_','_','X'],['_','_','X']] Number.getWidth()
+3
+Number.match [['_','_','X'],['_','_','X'],['_','_','X'],['_','_','X']] Number.getHeight()
+4
+Number.match [['_','_','X'],['_','_','X'],['_','_','X'],['_','_','X']] Number.getColor()
+'K'
+Number.match [['_','_','X'],['_','_','X'],['_','_','X'],['_','X','X']] Number.getType()
+*EXCEPTION*
+Number.match [['X','X','X'],['_','X','X'],['_','_','X'],['X','X','X']] Number.getType()
+'three'
+Number.match [['X','X','X'],['_','X','X'],['_','_','X'],['X','X','X']] Number.getHeight()
+4
+Number.match [['X','X','X'],['_','X','X'],['_','_','X'],['X','X','X']] Number.getWidth()
+3
+Number.match [['X','_','X'],['X','X','X'],['_','_','X'],['_','_','X']] Number.getType()
+'four'
+Number.match [['X','_','X'],['X','X','X'],['_','_','X'],['_','_','X']] Number.getHeight()
+4
+Number.match [['X','_','X'],['X','X','X'],['_','_','X'],['_','_','X']] Number.getWidth()
+3
+Number.match [['X','X','X'],['X','X','X'],['X','X','X'],['X','X','X']] Number.getType()
+*EXCEPTION*
+Number.match [['_','_','X'],['_','_','X'],['_','_','X'],['_','_','X']] Number.getType()
+'one'
+Number.match [['X','X','X','X','X'],['X','_','_','_','_'],['X','X','X','X','X'],['_','_','_','_','X'],['X','X','X','X','X']] Number.getType()
+'five'
+Number.match [['X','X','X','X','X'],['X','_','_','_','_'],['X','X','X','X','X'],['_','_','_','_','X'],['X','X','X','X','X']] Number.getHeight()
+5
+Number.match [['X','X','X','X','X'],['X','_','_','_','_'],['X','X','X','X','X'],['_','_','_','_','X'],['X','X','X','X','X']] Number.getWidth()
+5
+Number.match [['X','X','X','X','X'],['X','X','X','X','X'],['X','X','X','X','X'],['X','X','X','X','X'],['X','X','X','X','X']] Number.getType()
+*EXCEPTIONN*
